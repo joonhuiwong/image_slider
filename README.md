@@ -12,3 +12,8 @@
 - https://github.com/bumptech/glide
 - https://github.com/smarteist/Android-Image-Slider
 - https://github.com/smarteist/Android-Image-Slider/issues/109
+
+## Project Notes:
+- The project will not work "as-is" as it reads the pictures from <externalStorage/appFolder/> (FileUtils.java).
+- The pictures I tested with are phone background images (so portrait images), and the SliderActivity is show the SliderView as full-screen.
+- There are much better approaches to this, but this is just for learning/reference.
